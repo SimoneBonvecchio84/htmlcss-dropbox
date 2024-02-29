@@ -5,3 +5,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*COMMON*/
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    /*debug*/
+    min-height: 500px;
+    border: 1px solid black;
+}
+
+.container-col {
+    width: 50%;
+    margin: auto;
+}
+
+/*Utility*/
+
+.display-flex {
+    display: flex;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height:60px;
+    /*debug*/
+    background-color: red;
+    justify-content: space-between;
+}
+
+/*header-items*/
+
+.header-items {
+    width: 30%;
+    /*debug*/
+    height: 100%;
+    background-color: black;
+}
