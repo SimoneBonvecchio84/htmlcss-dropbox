@@ -11,8 +11,6 @@
 .container {
     margin: 0 auto;
     width: 100%;
-    /*debug*/
-    border: 1px solid black;
 }
 
 .container-col {
@@ -22,9 +20,17 @@
 
 /*Utility*/
 
+/*display-flex*/
 .display-flex {
     display: flex;
 }
+
+/*wrap*/
+.wrap {
+    flex-wrap: wrap;
+}
+
+
 
 /*header*/
 
@@ -81,3 +87,120 @@ header {
     height: 70%;
     border: 1px dashed;
 }
+
+/*COLUMN-CARD_CONTAINER*/
+
+.column-card {
+    margin-top: 50px;
+    /*debug*/
+    border: 1px dashed;
+    justify-content: space-between;
+}
+
+/*title-column-child*/
+
+.title-column-child {
+    margin-bottom: 10px;
+    width: 100%;
+    /*debug*/
+    height: 70px;
+    background-color: blueviolet;
+
+}
+
+/*vertical-column-child*/
+
+.vertical-column-child {
+    width: calc(100% / 3 - 5px);
+    /*debug*/
+    height: 600px;
+    background-color: lightgrey;
+}
+
+/*title-column-child bottom*/
+.bottom {
+    margin-top: 10px;
+    /*debug*/
+    height: 100px;
+}
+
+/*card-img-section*/
+
+.card-img-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+
+/*img-section-child*/
+
+.img-section-left {
+    width: 60%;
+    /*debug*/
+    height: 200px;
+    background-color: blue;
+}
+
+.text-section-right {
+    width: 40%;
+    /*debug*/
+    height: 200px;
+    background-color:green;
+}
+
+/*vertical-column-child middle*/
+
+.middle {
+    
+    margin-bottom: 10px;
+    /*debug*/
+    height: 300px;
+}
+
+/*img-section-left bottom-text*/
+
+.bottom-text {
+    margin-top: 50px;
+    /*debug*/
+    height: 150px;
+}
+
+
+/*LOGO-SECTION*/
+
+.logo-section {
+    width: 100%;
+    justify-content: space-between;
+}
+
+/*child-logo-section*/
+.child-logo-section {
+    width: calc(100% / 3);
+    /*debug*/
+    height: 360px;
+    border: 1px dashed black;
+    background-color: aquamarine;
+}
+
+/*logo-section-bottom*/
+
+.logo-section-bottom {
+    width: 100%;
+    /*debug*/
+    height: 150px;
+    background-color: cornflowerblue;
+    align-items: center;
+}
+
+
+/*mid-height*/
+/*debug*/
+.mid-height {
+    /*debug*/
+    height: 130px;
+}
+
+
+
+
