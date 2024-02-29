@@ -201,6 +201,40 @@ header {
     height: 130px;
 }
 
+/*LAST-MAIN-SECTION*/
+
+/*last-child-cont*/
+
+.last-child-cont {
+    margin-top: 20px;
+    width: 100%;
+    /*debug*/
+    height: 300px;
+    background-color: blueviolet;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: 40px;
+    width: 100%;
+    /*debug*/
+    height: 250px;
+    background-color: darkslategray;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*footer-child*/
+
+.footer-child {
+    width: 10%;
+    /*debug*/
+    height:230px;
+    background-color: gold;
+}
+
 
 
 
