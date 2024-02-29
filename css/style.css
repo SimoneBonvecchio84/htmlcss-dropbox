@@ -10,9 +10,9 @@
 
 .container {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     /*debug*/
-    min-height: 500px;
+    
     border: 1px solid black;
 }
 
@@ -44,4 +44,22 @@ header {
     /*debug*/
     height: 100%;
     background-color: black;
+}
+
+/*HERO*/
+
+.hero {
+    width: 100%;
+    /*debug*/
+    height: 400px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-child {
+    width: 70%;
+    /*dubug*/
+    height: 370px;
+    background-color: chocolate;
 }
