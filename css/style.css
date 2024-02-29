@@ -40,6 +40,9 @@ header {
     /*debug*/
     background-color: red;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /*header-items*/
@@ -49,14 +52,16 @@ header {
     /*debug*/
     height: 100%;
     background-color: black;
+    z-index: 9999;
 }
 
 /*HERO*/
 
 .hero {
+    padding-top: 30px;
     width: 100%;
     /*debug*/
-    height: 400px;
+    height: 450px;
     background-color: aquamarine;
     justify-content: center;
     align-items: end;
