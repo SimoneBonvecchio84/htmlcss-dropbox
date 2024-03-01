@@ -20,6 +20,7 @@ img {
     --button-font-size: 0.7rem;
     --backgroun-color-hero: rgb(180 208 231);
     --paragraphs-font-size: 0.7rem;
+    --border-color:rgb(233 233 235);
 }
 /*COMMON*/
 
@@ -39,11 +40,7 @@ ul {
     list-style-type:none;
 }
 
-a {
-    text-decoration: none;
-    color:inherit;
-    font-size:0.6rem ;
-}
+
 
 /*Utility*/
 
@@ -61,6 +58,14 @@ a {
     flex-direction: column;
 }
 
+.m-l-m {
+    margin-left: -5px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
 .m-t-20 {
    margin-top: 20px;
 }
@@ -68,6 +73,34 @@ a {
 .m-t-40 {
     margin-top: 40px;
 }
+
+.m-l-5 {
+    margin-left: 5px;
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.m-l-30 {
+    margin-left: 30px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
 
 
 /*header*/
@@ -101,6 +134,12 @@ header {
 .ul-nav {
     padding: 10px;
     gap: 20px;
+}
+
+.a-header {
+    text-decoration: none;
+    color:inherit;
+    font-size:0.6rem ;
 }
 
 .button-nav {
@@ -170,29 +209,50 @@ h1 {
 
 .column-card {
     margin-top: 50px;
-    /*debug*/
-    border: 1px dashed;
     justify-content: space-between;
 }
 
 /*title-column-child*/
 
 .title-column-child {
-    margin-bottom: 10px;
     width: 100%;
-    /*debug*/
-    height: 70px;
-    background-color: blueviolet;
-
 }
+
+/*radio-btn-cont*/
+
 
 /*vertical-column-child*/
 
 .vertical-column-child {
-    width: calc(100% / 3 - 5px);
+    width: calc(100% / 3 - 15px);
     /*debug*/
     height: 600px;
-    background-color: lightgrey;
+    border: 1px solid lightgray;
+}
+
+/*header-column-child*/
+
+.header-column-child {
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-user,
+.fa-users,
+.fa-building,
+.fa-folder,
+.fa-share-nodes {
+    font-size: 0.7rem;
+}
+
+.li-icons {
+    margin-left: -10px;
+}
+
+.grey-text {
+    color: lightgray;
 }
 
 /*title-column-child bottom*/
