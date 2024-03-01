@@ -14,16 +14,35 @@ img {
     max-width: 100%;
 }
 
+:root {
+    --button-color: rgb(0 97 255);
+    --button-border: none;
+    --button-font-size: 0.7rem;
+    --backgroun-color-hero: rgb(180 208 231);
+    --paragraphs-font-size: 0.7rem;
+}
 /*COMMON*/
 
 .container {
     margin: 0 auto;
     width: 100%;
+    max-width: 1200px;
 }
 
 .container-col {
     width: 50%;
+    max-width: 1100px;
     margin: auto;
+}
+
+ul {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+    font-size:0.6rem ;
 }
 
 /*Utility*/
@@ -38,6 +57,17 @@ img {
     flex-wrap: wrap;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
+.m-t-20 {
+   margin-top: 20px;
+}
+
+.m-t-40 {
+    margin-top: 40px;
+}
 
 
 /*header*/
@@ -46,59 +76,94 @@ header {
     width: 100%;
     height:60px;
     /*debug*/
-    background-color: red;
     justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 9999;
+    background-color: white;
 }
 
 /*header-items*/
 
 .header-items {
-    width: 30%;
-    /*debug*/
     height: 100%;
-    background-color: black;
-    z-index: 9999;
+    align-items: center;   
 }
+
+/*Nav-menu*/
+
+.logo-img {
+    width: 100px;
+    
+}
+
+.ul-nav {
+    padding: 10px;
+    gap: 20px;
+}
+
+.button-nav {
+    background-color: var(--button-color);
+    border:var(--button-border) ;
+    color: white;
+    padding: 5px;
+    font-size: var(--button-font-size);
+    
+
+}
+
+
 
 /*HERO*/
 
 .hero {
     margin-top: 60px;
     width: 100%;
-    /*debug*/
-    height: 400px;
-    background-color: aquamarine;
+    background-color:var(--backgroun-color-hero);
     justify-content: center;
     align-items: end;
 }
 
+/*h1 title*/
+
+h1 {
+    font-size: 3rem;
+}
+
 /*hero-child*/
+
+/*cont-hero-child*/
+
 .hero-child {
     width: 70%;
-    /*dubug*/
-    height: 370px;
-    background-color: chocolate;
     align-items: end;
 }
 
 /*hero-child left and right*/
 
 .hero-child-left {
-    width: 40%;
-    /*debug*/
-    height: 70%;
-    border: 1px dashed;
-   
+    width: 30%;
+       
+}
+
+/*par-hero*/
+
+.par-hero {
+    font-size: var(--paragraphs-font-size);
+    line-height: 15px;
+}
+
+/*arrow*/
+
+.fa-arrow-down {
+    font-size: 2rem;
+    margin-bottom:10px ;
 }
 
 .hero-child-right {
-    width: 60%;
-    /*debug*/
-    height: 70%;
-    border: 1px dashed;
+    width: 70%;
+    
 }
 
 /*COLUMN-CARD_CONTAINER*/
