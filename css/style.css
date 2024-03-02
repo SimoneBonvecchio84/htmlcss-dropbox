@@ -25,6 +25,7 @@ span {
     --backgroun-color-hero: rgb(180 208 231);
     --paragraphs-font-size: 0.7rem;
     --margin-left:10px; 
+   
 }
 /*COMMON*/
 
@@ -299,18 +300,18 @@ h1 {
 /*img-section-child*/
 
 .img-section-left {
-    width: 60%;
-    
-    
+    width: 100%;
+   
 }
 
-.text-section-right {
-    width: 40%;
-    
+.cont-btn-last {
+    width: 200px;
 }
+
 
 .btn-post {
     background-color: white;
+    
 }
 
 /*vertical-column-child middle*/
@@ -342,11 +343,19 @@ h1 {
     width: calc(100% / 3);
     /*debug*/
     height: 360px;
-    border: 1px dashed black;
-    background-color: aquamarine;
+    background-color: rgb(245 245 245);
 }
 
+/*items-square*/
+    .items-square {
+        width: 50%;
+        height: 50%;
+    }
+
+/**/    
+
 /*logo-section-bottom*/
+
 
 .logo-section-bottom {
     width: 100%;
@@ -355,6 +364,63 @@ h1 {
     background-color: cornflowerblue;
     align-items: center;
 }
+/*color -square*/
+.square-green {
+    background-color: rgb(162 211 155);
+}
+
+.square-violet {
+    background-color:rgb(97 8 43) ;
+}
+
+.square-ciano {
+    background-color:rgb(0 147 206) ;
+}
+
+.square-red {
+    background-color: rgb(255 28 28);
+}
+
+.square-hearts {
+    background-color:rgb(180 208 231) ;
+}
+
+.square-blue {
+    background-color:rgb(13 36 129) ;
+}
+
+.square-yellow {
+    background-color:rgb(255 216 48) ;
+}
+.items-square {
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.designit-img {
+    width: 100px;
+    filter: invert(1);
+    /* or to blue */
+    filter: invert(9.9) sepia(0) saturate(0) hue-rotate(0deg);
+}
+
+.florida {
+    height: 40px;
+}
+
+.center-img-logo {
+    width: 160px;
+}
+
+.hr-big {
+    width: 20%;
+}
+
+
+
+
+
 
 
 /*mid-height*/
@@ -373,7 +439,12 @@ h1 {
     width: 100%;
     /*debug*/
     height: 300px;
+   
     
+}
+
+.h2-last-child {
+    color:rgb(97 8 43) ;
 }
 
 /*FOOTER*/
