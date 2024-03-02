@@ -253,7 +253,7 @@ h1 {
     margin:auto;
     width: 80%;
     background-color: var(--button-color);
-    justify-content: center;
+    justify-content: center; 
 }
 
 
