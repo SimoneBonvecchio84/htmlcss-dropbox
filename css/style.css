@@ -474,6 +474,10 @@ h1 {
     display: none;
 }
 
+.hover-eft:hover .display-non {
+    display: block;
+} 
+
 
 
 
