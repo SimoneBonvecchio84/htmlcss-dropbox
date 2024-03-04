@@ -226,12 +226,12 @@ h1 {
 
 .fa-arrow-down {
     font-size: 2rem;
-    margin-bottom:10px ;
+    margin-top: 220px;
 }
 
 .hero-child-right {
     width: 70%;
-    height: 320px;
+    height: 400px;
     
 }
 
@@ -523,4 +523,8 @@ footer {
 
 .white {
     color: white;
+}
+
+.hr-footer {
+    width: 50%;
 }
