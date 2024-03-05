@@ -201,7 +201,7 @@ button:hover {
 /*HERO*/
 
 .hero {
-    margin-top: 60px;
+    margin-top: 5vw;
     width: 100%;
     background-color:var(--backgroun-color-hero);
     justify-content: center;
@@ -246,7 +246,7 @@ h1 {
 
 .hero-child-right {
     width: 70%;
-    height: 50vh;
+    height: 60vh;
     
 }
 
