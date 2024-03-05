@@ -21,6 +21,7 @@ span {
 
 button {
     cursor: pointer;
+    
 }
 
 :root {
@@ -58,7 +59,7 @@ ul {
 .a-header {
     text-decoration: none;
     color:inherit;
-    font-size:0.8rem ;
+    font-size:0.7rem ;
 }
 
 .fa-solid {
@@ -388,6 +389,9 @@ h1 {
     width: 30%;
 }
 
+.cont-btn {
+    width: fit-content;
+}
 /*-------------------------------------------------------------*/
 
 /*card-img-section*/
@@ -402,14 +406,19 @@ h1 {
 /*img-section-child*/
 
 .img-section-left {
-    width: 100%;
+    width: 60%;
    
+}
+
+.text-section-right {
+    width:40% ;
 }
 
 .cont-btn-last {
     width: 200px;
    
 }
+
 
 
 .btn-post {
@@ -419,6 +428,7 @@ h1 {
 
 .btn-last-child {
     border: none;
+    
 }
 
 /*vertical-column-child middle*/
