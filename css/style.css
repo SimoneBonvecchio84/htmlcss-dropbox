@@ -19,6 +19,10 @@ span {
     display: inline-block;
 }
 
+button {
+    cursor: pointer;
+}
+
 :root {
     --button-color: rgb(0 97 255);
     --button-border: none;
@@ -28,6 +32,9 @@ span {
     --margin-left:10px; 
    
 }
+
+/*-------------------------------------------------------------*/
+
 /*COMMON*/
 
 .container {
@@ -38,7 +45,7 @@ span {
 
 .container-col {
     width: 50%;
-    max-width: 1100px;
+    max-width: 1100vw;
     margin: auto;
 }
 
@@ -58,6 +65,8 @@ ul {
     font-size:0.7rem ;
 }
 
+/*-------------------------------------------------------------*/
+
 /*Utility*/
 
 /*display-flex*/
@@ -69,7 +78,6 @@ ul {
     justify-content: center;
 }
 
-/*wrap*/
 .wrap {
     flex-wrap: wrap;
 }
@@ -127,6 +135,12 @@ ul {
 }
 
 
+/*-------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------*/
+
 /*header*/
 
 header {
@@ -182,6 +196,7 @@ button:hover {
     /* background-color: rgba(0,0,0,0.3); */
 }
 
+/*---------------------------------------------------------------*/
 
 /*HERO*/
 
@@ -231,9 +246,11 @@ h1 {
 
 .hero-child-right {
     width: 70%;
-    height: 400px;
+    height: 50vh;
     
 }
+
+/*-----------------------------------------------------------------*/
 
 /*COLUMN-CARD_CONTAINER*/
 
@@ -274,10 +291,39 @@ h1 {
 
 .column-list {
     width: 100%;
-    /*debug*/
-    height: 200px;
+    min-height: 25vh;
     
-    
+}
+
+.ul-card {
+    --icon-space:1.3em;
+    padding:10px;
+}
+
+.ul-card li {
+    padding-left: var(--icon-space);
+}
+
+.ul-card li:nth-child(1):before {
+    content: "\f007";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+.ul-card li:nth-child(2):before {
+    content: "\f07b";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+.ul-card li:nth-child(3):before {
+    content: "\f1e0";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
 }
 
 .fa-check {
@@ -286,12 +332,30 @@ h1 {
 
 
 
-/*button-col*/
+/*List-col-bottom*/
 .cont-btn {
     margin:auto;
     width: 80%;
     background-color: var(--button-color);
     justify-content: center; 
+}
+
+.ul-col-bot {
+    --icon-space: 1.3em;
+    padding:0; 
+}
+
+.ul-col-bot li {
+    padding-left: var(--icon-space);
+}
+
+.ul-col-bot li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: var(--button-color);
 }
 
 
@@ -324,6 +388,8 @@ h1 {
 .bottom-right {
     width: 30%;
 }
+
+/*-------------------------------------------------------------*/
 
 /*card-img-section*/
 
@@ -371,6 +437,7 @@ h1 {
     height: 150px;
 }
 
+/*------------------------------------------------------------*/
 
 /*LOGO-SECTION*/
 
@@ -393,7 +460,7 @@ h1 {
         aspect-ratio: 4/4;
     }
 
-/**/    
+/*---------------------------------------------------------------*/    
 
 /*logo-section-bottom*/
 
@@ -459,7 +526,7 @@ h1 {
 
 
 
-
+/*--------------------------------------------------------------*/
 
 
 
@@ -481,7 +548,7 @@ h1 {
 
 
 
-
+/*----------------------------------------------------------------*/
 
 
 /*LAST-MAIN-SECTION*/
@@ -500,6 +567,7 @@ h1 {
     color:rgb(97 8 43) ;
 }
 
+/*-------------------------------------------------------------*/
 
 /*FOOTER*/
 
