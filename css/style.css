@@ -187,7 +187,8 @@ button:hover {
     background-color:cornflowerblue;
 }
 
-.cont-btn:hover {
+.cont-btn:hover,
+.cont-btn-card:hover {
     background-color:cornflowerblue; 
 }
 
@@ -201,7 +202,7 @@ button:hover {
 /*HERO*/
 
 .hero {
-    margin-top: 5vw;
+    margin-top: 7vw;
     width: 100%;
     background-color:var(--backgroun-color-hero);
     justify-content: center;
@@ -220,6 +221,7 @@ h1 {
 
 .hero-child {
     width: 70%;
+    
     align-items: end;
 }
 
@@ -241,12 +243,13 @@ h1 {
 
 .fa-arrow-down {
     font-size: 2rem;
-    margin-top: 220px;
+    margin-top: 15vh;
 }
 
 .hero-child-right {
     width: 70%;
-    height: 60vh;
+    
+    
     
 }
 
@@ -255,7 +258,7 @@ h1 {
 /*COLUMN-CARD_CONTAINER*/
 
 .column-card {
-    margin-top: 100px;
+    margin-top: 6vw;
     justify-content: space-between;
 }
 
@@ -333,7 +336,7 @@ h1 {
 
 
 /*List-col-bottom*/
-.cont-btn {
+.cont-btn-card {
     margin:auto;
     width: 80%;
     background-color: var(--button-color);
