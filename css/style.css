@@ -58,7 +58,7 @@ ul {
 .a-header {
     text-decoration: none;
     color:inherit;
-    font-size:0.6rem ;
+    font-size:0.8rem ;
 }
 
 .fa-solid {
@@ -145,10 +145,9 @@ ul {
 
 header {
     width: 100%;
-    /* max-width: 1200px; */
-    height:70px;
-    /*debug*/
+    height: 10vh;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -192,8 +191,8 @@ button:hover {
 }
 
 .li-nav:hover {
-    border-bottom: 1px solid lightgray;
-    /* background-color: rgba(0,0,0,0.3); */
+    border-bottom: 2px solid var(--button-color);
+
 }
 
 /*---------------------------------------------------------------*/
@@ -468,7 +467,7 @@ h1 {
 .logo-section-bottom {
     width: 100%;
     /*debug*/
-    height: 170px;
+    height: 200px;
     background-color: rgb(180 208 231);;
     align-items: center;
 }
@@ -537,9 +536,15 @@ h1 {
     height: 130px;
 }
 
+.hover-eft {
+    justify-content: space-between;
+    
+}
+
 .display-non {
     display: none;
 }
+
 
 .hover-eft:hover .display-non {
     display: block;
@@ -585,7 +590,7 @@ footer {
 .footer-child {
     width: 10%;
     /*debug*/
-    height:230px;
+    height:40vh;
    
 }
 
@@ -596,3 +601,4 @@ footer {
 .hr-footer {
     width: 50%;
 }
+
